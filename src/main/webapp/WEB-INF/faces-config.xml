@@ -7,6 +7,7 @@
         <action-listener>
             org.primefaces.application.DialogActionListener
         </action-listener>
+        <message-bundle>resources.application</message-bundle>
         <navigation-handler>
             org.primefaces.application.DialogNavigationHandler
         </navigation-handler>
@@ -15,6 +16,9 @@
         </view-handler>
         <navigation-handler>
             org.primefaces.mobile.application.MobileNavigationHandler
-        </navigation-handler>        
+        </navigation-handler>
+        <locale-config>
+        	<default-locale>en</default-locale>
+        </locale-config>        
     </application>
 </faces-config>

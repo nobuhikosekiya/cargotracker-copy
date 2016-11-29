@@ -11,7 +11,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import net.java.pathfinder.internal.GraphDao;
 
-@Stateless
+//@Stateless
 @Path("/graph-traversal")
 public class GraphTraversalService {
 

@@ -235,7 +235,7 @@
                 <activeByDefault>false</activeByDefault>
             </activation>
             <properties>
-                <webapp.graphTraversalUrl>http://localhost:8001/cargo-tracker/rest/graph-traversal/shortest-path</webapp.graphTraversalUrl>
+                <webapp.graphTraversalUrl>https://localhost:8002/cargo-tracker/rest/graph-traversal/shortest-path</webapp.graphTraversalUrl>
             </properties>
             <dependencies>
                 <dependency>

@@ -25,7 +25,7 @@ public class HandlingActivity implements Serializable {
 
     private static final long serialVersionUID = 1L;
     @Enumerated(EnumType.STRING)
-    @Column(name = "next_expected_handling_event_type")
+    @Column(name = "next_expected_hndl_evt_type")
     private HandlingEvent.Type type;
     @ManyToOne
     @JoinColumn(name = "next_expected_location_id")

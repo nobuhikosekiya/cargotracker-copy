@@ -42,7 +42,6 @@ public class SampleDataGenerator {
     @Inject
     private HandlingEventRepository handlingEventRepository;
 
-    @PostConstruct
     @TransactionAttribute(TransactionAttributeType.REQUIRED)
     public void loadSampleData() {
         logger.info("Loading sample data.");
